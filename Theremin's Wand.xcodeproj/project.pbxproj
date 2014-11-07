@@ -14,6 +14,7 @@
 		181CD6A11A06F0B300E61B0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181CD6A01A06F0B300E61B0C /* Images.xcassets */; };
 		181CD6A41A06F0B300E61B0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181CD6A21A06F0B300E61B0C /* LaunchScreen.xib */; };
 		181CD6B01A06F0B300E61B0C /* Theremin_s_WandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD6AF1A06F0B300E61B0C /* Theremin_s_WandTests.m */; };
+		181CD6BC1A06F68D00E61B0C /* Splash-Screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 181CD6BB1A06F68D00E61B0C /* Splash-Screen.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		181CD6A91A06F0B300E61B0C /* Theremin's WandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Theremin's WandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181CD6AE1A06F0B300E61B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181CD6AF1A06F0B300E61B0C /* Theremin_s_WandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Theremin_s_WandTests.m; sourceTree = "<group>"; };
+		181CD6BB1A06F68D00E61B0C /* Splash-Screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Splash-Screen.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		181CD6921A06F0B300E61B0C /* Theremin's Wand */ = {
 			isa = PBXGroup;
 			children = (
+				181CD6BB1A06F68D00E61B0C /* Splash-Screen.gif */,
 				181CD6971A06F0B300E61B0C /* AppDelegate.h */,
 				181CD6981A06F0B300E61B0C /* AppDelegate.m */,
 				181CD69A1A06F0B300E61B0C /* ViewController.h */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181CD69F1A06F0B300E61B0C /* Main.storyboard in Resources */,
+				181CD6BC1A06F68D00E61B0C /* Splash-Screen.gif in Resources */,
 				181CD6A41A06F0B300E61B0C /* LaunchScreen.xib in Resources */,
 				181CD6A11A06F0B300E61B0C /* Images.xcassets in Resources */,
 			);
