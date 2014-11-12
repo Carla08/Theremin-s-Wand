@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RecordedVC.h"
 @interface ViewController : UIViewController
+{
 
-
+}
 @end
 

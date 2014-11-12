@@ -24,4 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+/*- (IBAction)Recorded:(id)sender {
+    NSLog(@"Yeah babe");
+    RecordedVC *RVC= [[RecordedVC alloc]init];
+    [self presentViewController:RVC animated:YES completion:nil];
+}*/
 @end

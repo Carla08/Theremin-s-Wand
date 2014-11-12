@@ -10,11 +10,17 @@
 		181CD6961A06F0B300E61B0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD6951A06F0B300E61B0C /* main.m */; };
 		181CD6991A06F0B300E61B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD6981A06F0B300E61B0C /* AppDelegate.m */; };
 		181CD69C1A06F0B300E61B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD69B1A06F0B300E61B0C /* ViewController.m */; };
-		181CD69F1A06F0B300E61B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CD69D1A06F0B300E61B0C /* Main.storyboard */; };
 		181CD6A11A06F0B300E61B0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181CD6A01A06F0B300E61B0C /* Images.xcassets */; };
 		181CD6A41A06F0B300E61B0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181CD6A21A06F0B300E61B0C /* LaunchScreen.xib */; };
 		181CD6B01A06F0B300E61B0C /* Theremin_s_WandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CD6AF1A06F0B300E61B0C /* Theremin_s_WandTests.m */; };
 		181CD6BC1A06F68D00E61B0C /* Splash-Screen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 181CD6BB1A06F68D00E61B0C /* Splash-Screen.gif */; };
+		1846E67B1A131332001B74CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1846E6791A131332001B74CF /* Main.storyboard */; };
+		1846E67E1A13160A001B74CF /* RecordedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846E67D1A13160A001B74CF /* RecordedVC.m */; };
+		184F0EBF1A0C8FE900A68525 /* Play-button.gif in Resources */ = {isa = PBXBuildFile; fileRef = 184F0EBE1A0C8FE900A68525 /* Play-button.gif */; };
+		184F0EC11A0C928700A68525 /* rectangulo_record.gif in Resources */ = {isa = PBXBuildFile; fileRef = 184F0EC01A0C928700A68525 /* rectangulo_record.gif */; };
+		184F0EC31A0C92C200A68525 /* Microphone-01-128-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F0EC21A0C92C200A68525 /* Microphone-01-128-2.png */; };
+		184F0EC51A0C933900A68525 /* Eight-Note-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F0EC41A0C933900A68525 /* Eight-Note-256.png */; };
+		184F0EC71A0C9E7100A68525 /* rectangulo-recorded-.gif in Resources */ = {isa = PBXBuildFile; fileRef = 184F0EC61A0C9E7100A68525 /* rectangulo-recorded-.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +41,20 @@
 		181CD6981A06F0B300E61B0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		181CD69A1A06F0B300E61B0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		181CD69B1A06F0B300E61B0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		181CD69E1A06F0B300E61B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181CD6A01A06F0B300E61B0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		181CD6A31A06F0B300E61B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		181CD6A91A06F0B300E61B0C /* Theremin's WandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Theremin's WandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181CD6AE1A06F0B300E61B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181CD6AF1A06F0B300E61B0C /* Theremin_s_WandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Theremin_s_WandTests.m; sourceTree = "<group>"; };
 		181CD6BB1A06F68D00E61B0C /* Splash-Screen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Splash-Screen.gif"; sourceTree = "<group>"; };
+		1846E67A1A131332001B74CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1846E67C1A13160A001B74CF /* RecordedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordedVC.h; sourceTree = "<group>"; };
+		1846E67D1A13160A001B74CF /* RecordedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordedVC.m; sourceTree = "<group>"; };
+		184F0EBE1A0C8FE900A68525 /* Play-button.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Play-button.gif"; sourceTree = "<group>"; };
+		184F0EC01A0C928700A68525 /* rectangulo_record.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rectangulo_record.gif; sourceTree = "<group>"; };
+		184F0EC21A0C92C200A68525 /* Microphone-01-128-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Microphone-01-128-2.png"; sourceTree = "<group>"; };
+		184F0EC41A0C933900A68525 /* Eight-Note-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eight-Note-256.png"; sourceTree = "<group>"; };
+		184F0EC61A0C9E7100A68525 /* rectangulo-recorded-.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "rectangulo-recorded-.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,15 +96,17 @@
 		181CD6921A06F0B300E61B0C /* Theremin's Wand */ = {
 			isa = PBXGroup;
 			children = (
-				181CD6BB1A06F68D00E61B0C /* Splash-Screen.gif */,
+				184F0EBD1A0C8E1800A68525 /* Images */,
 				181CD6971A06F0B300E61B0C /* AppDelegate.h */,
+				1846E6791A131332001B74CF /* Main.storyboard */,
 				181CD6981A06F0B300E61B0C /* AppDelegate.m */,
 				181CD69A1A06F0B300E61B0C /* ViewController.h */,
 				181CD69B1A06F0B300E61B0C /* ViewController.m */,
-				181CD69D1A06F0B300E61B0C /* Main.storyboard */,
 				181CD6A01A06F0B300E61B0C /* Images.xcassets */,
 				181CD6A21A06F0B300E61B0C /* LaunchScreen.xib */,
 				181CD6931A06F0B300E61B0C /* Supporting Files */,
+				1846E67C1A13160A001B74CF /* RecordedVC.h */,
+				1846E67D1A13160A001B74CF /* RecordedVC.m */,
 			);
 			path = "Theremin's Wand";
 			sourceTree = "<group>";
@@ -120,6 +135,19 @@
 				181CD6AE1A06F0B300E61B0C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184F0EBD1A0C8E1800A68525 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				184F0EC61A0C9E7100A68525 /* rectangulo-recorded-.gif */,
+				184F0EC01A0C928700A68525 /* rectangulo_record.gif */,
+				184F0EC41A0C933900A68525 /* Eight-Note-256.png */,
+				184F0EC21A0C92C200A68525 /* Microphone-01-128-2.png */,
+				184F0EBE1A0C8FE900A68525 /* Play-button.gif */,
+				181CD6BB1A06F68D00E61B0C /* Splash-Screen.gif */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,10 +230,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181CD69F1A06F0B300E61B0C /* Main.storyboard in Resources */,
 				181CD6BC1A06F68D00E61B0C /* Splash-Screen.gif in Resources */,
 				181CD6A41A06F0B300E61B0C /* LaunchScreen.xib in Resources */,
+				184F0EC51A0C933900A68525 /* Eight-Note-256.png in Resources */,
+				184F0EC11A0C928700A68525 /* rectangulo_record.gif in Resources */,
+				184F0EC71A0C9E7100A68525 /* rectangulo-recorded-.gif in Resources */,
+				184F0EC31A0C92C200A68525 /* Microphone-01-128-2.png in Resources */,
+				1846E67B1A131332001B74CF /* Main.storyboard in Resources */,
 				181CD6A11A06F0B300E61B0C /* Images.xcassets in Resources */,
+				184F0EBF1A0C8FE900A68525 /* Play-button.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1846E67E1A13160A001B74CF /* RecordedVC.m in Sources */,
 				181CD69C1A06F0B300E61B0C /* ViewController.m in Sources */,
 				181CD6991A06F0B300E61B0C /* AppDelegate.m in Sources */,
 				181CD6961A06F0B300E61B0C /* main.m in Sources */,
@@ -248,20 +282,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		181CD69D1A06F0B300E61B0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				181CD69E1A06F0B300E61B0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		181CD6A21A06F0B300E61B0C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				181CD6A31A06F0B300E61B0C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1846E6791A131332001B74CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1846E67A1A131332001B74CF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,6 +452,7 @@
 				181CD6B51A06F0B300E61B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181CD6B61A06F0B300E61B0C /* Build configuration list for PBXNativeTarget "Theremin's WandTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +461,7 @@
 				181CD6B81A06F0B300E61B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
